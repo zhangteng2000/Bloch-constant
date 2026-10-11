@@ -1,0 +1,55 @@
+{
+  "status": "PASS: finite-expression intervals and CONDITIONAL gap arithmetic",
+  "not_an_unconditional_Bloch_counterexample_certificate": true,
+  "required_analytic_hypotheses": [
+    "The finite projection in (8.13) equals q_C for the compact-cylinder family.",
+    "The normalized holomorphic family satisfies (8.9): log(b(f_t)/A_AG) <= t*q_C + 10*t^2 for 0 < t <= 1/10000."
+  ],
+  "quadrature_inputs": "Fresh full reruns on 2026-10-10; no resumed area checkpoint",
+  "area_cover_complete": true,
+  "area_accepted_rectangles": 2338,
+  "area_attempts": 4674,
+  "area_seconds": 594.5612113999996,
+  "inner_seconds": 81.39945499999885,
+  "period_seconds": 106.2145758000006,
+  "precision_bits_recombination": 256,
+  "denominator_real": "[0.13566064254886371484058558737954647290067196084679300000000000000 +/- 3.76e-7]",
+  "numerator": [
+    "[0.097346409387053733051875510900957649352097832304216000000000000000 +/- 1.52e-5]",
+    "[0.13409159372507707123510299504202285518633158799241600000000000000 +/- 1.52e-5]"
+  ],
+  "projection_mean": [
+    "[0.71757296426221728324890136718750000000000000000000000000000000000 +/- 1.14e-4]",
+    "[0.98843401530757546424865722656250000000000000000000000000000000000 +/- 1.15e-4]"
+  ],
+  "q_projection_intervals": [
+    "[-0.00035363531271950434898959287066424821383163310104536598743874588028 +/- 1.62e-5]",
+    "[-0.00035363531272080538394684750494186433728599852325623955310896045755 +/- 1.62e-5]"
+  ],
+  "strict_q_bounds": [
+    "-370/1000000",
+    "-337/1000000"
+  ],
+  "explicit_parameter": "337/20000000",
+  "strict_logarithmic_decrease": "113569/40000000000000",
+  "analytic_remainder_constant_arithmetic": "[8.4763074873366349061705697779276395621929285176999827835569804848 +/- 7.37e-66]",
+  "A_AG": "[0.47186165345268178487446879361131614907701262173944324363146026689 +/- 2.00e-66]",
+  "conditional_upper_expression": "[0.47186165211296038375216360140182099187429971543589589767412583204 +/- 4.25e-66]",
+  "conditional_upper_rational": "471861652113/1000000000000",
+  "conditional_upper_decimal": "0.471861652113",
+  "conditional_gap_lower_bound": "13/10000000000",
+  "A_AG_minus_upper_expression": "[1.3397214011223051922094951572027129063035473459573344348522503991e-9 +/- 2.43e-74]",
+  "A_AG_minus_upper_rational": "[1.3396817848744687936113161490770126217394432436314602668880068052e-9 +/- 4.20e-74]",
+  "input_sha256": {
+    "bloch_shear_prym_area_result.json": "1f7c78fe55f974090f44786e90c931ee491078f599a3224f5c7e4a03d90528eb",
+    "bloch_shear_prym_inner_result.json": "210cf89e194f21c096ab814fd325ca28a6e61c66ef105b903e7f020b8b84d3f0",
+    "bloch_shear_prym_period_result.json": "fc6a445eaa71bc9b231ef63aa058a3471f9f7b4ad1ead97736c61dbd7580e732"
+  },
+  "source_sha256": {
+    "bloch_shear_prym_area_core.py": "72384d24dfa37b96b16c64d4427734cc0646241152831079610195120bda515f",
+    "bloch_shear_prym_area_audit.py": "e6a79c259a61cd476404ca0964ad3dacefe228e9af53e983597a4e5399b1f999",
+    "bloch_shear_prym_inner_audit.py": "6f868529223a5ce1b97deb51f995b0f0910fadea767357bc05721d58e4bc4a1a",
+    "bloch_shear_prym_period_audit.py": "1f39f3f77d7f6d035ccd8c007712faa289827dd0dd0d7af2b1ebad47ccf6c11f"
+  },
+  "recombiner_sha256": "f1bedbe0d4d52d8565acd668dcdd647a8e85c2d0d9257c7d7b32b451912f37bb"
+}

@@ -1,0 +1,17 @@
+{
+  "reference_Dirichlet_first_and_second_coefficients": "PASS",
+  "first_angular_average_zero": "PASS",
+  "second_angular_average": "(d**2 + 6*d*k - 4*d + 4*k**2 - 8*k + 4)/8",
+  "annulus_second_coefficient": "1/16 + log(2)/2",
+  "complex_circle_integrand_bound_below_8": true,
+  "cubic_remainder_constant": 8010,
+  "rotation_error_coefficient": "18/5",
+  "total_remainder_coefficient": "[8.4763074873366349061705697779276395621929285177000 +/- 1.73e-50]",
+  "total_remainder_coefficient_below_9": true,
+  "parameter_range": "|t| <= 1/10000",
+  "conditional_parameter": "1/64000",
+  "conditional_log_bound": "-1/409600000",
+  "conditional_log_bound_below_minus_2e_9": true,
+  "scope": "Algebra and constants for (162); not a complete Bloch counterexample certificate",
+  "source_sha256": "eb66963a0aca15131cfb09d0578f0f36607a24c90d4ab53e494612098ef3fcfd"
+}

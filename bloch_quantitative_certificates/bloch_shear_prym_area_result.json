@@ -1,0 +1,24 @@
+{
+  "status": "Finite outer area enclosure",
+  "complete": true,
+  "covered_parameter_area": "2",
+  "inner_xi_radius": "3/4",
+  "denominator": [
+    "[0.076692082859063628253327404283979005384045728555585 +/- 3.75e-7]",
+    "[+/- 3.75e-7]"
+  ],
+  "numerator": [
+    "[0.038245885039710873678463841495956751069141180755475 +/- 1.51e-5]",
+    "[0.093697185466864642543601735501660369460320984677485 +/- 1.51e-5]"
+  ],
+  "accepted": 2338,
+  "attempts": 4674,
+  "seconds": 594.5612113999996,
+  "workers": 3,
+  "source_sha256": {
+    "bloch_shear_prym_area_core.py": "72384d24dfa37b96b16c64d4427734cc0646241152831079610195120bda515f",
+    "bloch_shear_prym_area_audit.py": "e6a79c259a61cd476404ca0964ad3dacefe228e9af53e983597a4e5399b1f999"
+  },
+  "error_per_parameter_area": "1/20000 per real/imaginary component",
+  "quadrature": "4 by 4 Gauss; error coefficient for eighth Taylor jet is 1/44100"
+}

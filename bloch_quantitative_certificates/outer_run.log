@@ -1,0 +1,70 @@
+attempts 100 accepted 38 area 0.0146484375 pending 26 seconds 10.26849460000085
+attempts 200 accepted 89 area 0.032958984375 pending 24 seconds 23.975621900000988
+attempts 300 accepted 140 area 0.04541015625 pending 22 seconds 37.749254199999996
+attempts 400 accepted 189 area 0.06103515625 pending 24 seconds 50.95916610000131
+attempts 500 accepted 237 area 0.0872802734375 pending 28 seconds 62.879994000002625
+attempts 600 accepted 289 area 0.1103515625 pending 24 seconds 75.15338960000008
+attempts 700 accepted 341 area 0.120849609375 pending 20 seconds 86.83256170000095
+attempts 800 accepted 388 area 0.14794921875 pending 26 seconds 98.16761129999941
+attempts 900 accepted 442 area 0.166015625 pending 18 seconds 109.96811320000052
+attempts 1000 accepted 493 area 0.182861328125 pending 16 seconds 122.25501350000195
+attempts 1100 accepted 539 area 0.197265625 pending 24 seconds 133.21909460000097
+attempts 1200 accepted 588 area 0.2119140625 pending 26 seconds 144.66376800000216
+attempts 1300 accepted 642 area 0.232421875 pending 18 seconds 156.79654440000013
+attempts 1400 accepted 691 area 0.24560546875 pending 20 seconds 168.14061930000025
+attempts 1500 accepted 742 area 0.263916015625 pending 18 seconds 180.0689158999994
+attempts 1600 accepted 789 area 0.286376953125 pending 24 seconds 193.11733160000222
+attempts 1700 accepted 843 area 0.304931640625 pending 16 seconds 206.64843420000034
+attempts 1800 accepted 890 area 0.3203125 pending 22 seconds 220.7168453000013
+attempts 1900 accepted 942 area 0.33642578125 pending 18 seconds 235.10366740000245
+attempts 2000 accepted 994 area 0.3533935546875 pending 14 seconds 249.57370920000176
+attempts 2100 accepted 1040 area 0.509765625 pending 22 seconds 263.5946017999995
+attempts 2200 accepted 1093 area 0.55126953125 pending 16 seconds 277.27224489999935
+attempts 2300 accepted 1147 area 0.640625 pending 8 seconds 291.4071416000006
+attempts 2400 accepted 1192 area 0.67431640625 pending 18 seconds 303.57313090000025
+attempts 2500 accepted 1243 area 0.6884765625 pending 16 seconds 316.56729560000167
+attempts 2600 accepted 1292 area 0.6956787109375 pending 18 seconds 328.84788050000134
+attempts 2700 accepted 1340 area 0.712646484375 pending 22 seconds 340.9986822000028
+attempts 2800 accepted 1392 area 0.72900390625 pending 18 seconds 352.78163660000064
+attempts 2900 accepted 1438 area 0.74951171875 pending 26 seconds 364.24918120000075
+attempts 3000 accepted 1490 area 0.758056640625 pending 22 seconds 375.69653440000184
+attempts 3100 accepted 1542 area 0.7703857421875 pending 18 seconds 388.04853600000206
+attempts 3200 accepted 1596 area 0.7958984375 pending 10 seconds 400.1708466000018
+attempts 3300 accepted 1641 area 0.845703125 pending 20 seconds 412.29719540000224
+attempts 3400 accepted 1694 area 0.9375 pending 14 seconds 424.4887681
+attempts 3500 accepted 1743 area 1.232421875 pending 16 seconds 436.12814140000046
+attempts 3600 accepted 1790 area 1.246826171875 pending 22 seconds 448.2011887000008
+attempts 3700 accepted 1844 area 1.258056640625 pending 14 seconds 460.9677055000029
+attempts 3800 accepted 1891 area 1.27587890625 pending 20 seconds 474.7498154999994
+attempts 3900 accepted 1947 area 1.295654296875 pending 8 seconds 490.715138800002
+attempts 4000 accepted 1990 area 1.318359375 pending 22 seconds 504.86663580000095
+attempts 4100 accepted 2042 area 1.33544921875 pending 18 seconds 518.670599000001
+attempts 4200 accepted 2091 area 1.38671875 pending 20 seconds 531.5079489000018
+attempts 4300 accepted 2143 area 1.413330078125 pending 16 seconds 544.4366187000014
+attempts 4400 accepted 2199 area 1.4638671875 pending 4 seconds 557.3958842000029
+attempts 4500 accepted 2246 area 1.48291015625 pending 10 seconds 569.8175207000022
+attempts 4600 accepted 2294 area 1.53125 pending 14 seconds 583.2296419000013
+{
+  "status": "Finite outer area enclosure",
+  "complete": true,
+  "covered_parameter_area": "2",
+  "inner_xi_radius": "3/4",
+  "denominator": [
+    "[0.076692082859063628253327404283979005384045728555585 +/- 3.75e-7]",
+    "[+/- 3.75e-7]"
+  ],
+  "numerator": [
+    "[0.038245885039710873678463841495956751069141180755475 +/- 1.51e-5]",
+    "[0.093697185466864642543601735501660369460320984677485 +/- 1.51e-5]"
+  ],
+  "accepted": 2338,
+  "attempts": 4674,
+  "seconds": 594.5612113999996,
+  "workers": 3,
+  "source_sha256": {
+    "bloch_shear_prym_area_core.py": "72384d24dfa37b96b16c64d4427734cc0646241152831079610195120bda515f",
+    "bloch_shear_prym_area_audit.py": "e6a79c259a61cd476404ca0964ad3dacefe228e9af53e983597a4e5399b1f999"
+  },
+  "error_per_parameter_area": "1/20000 per real/imaginary component",
+  "quadrature": "4 by 4 Gauss; error coefficient for eighth Taylor jet is 1/44100"
+}
