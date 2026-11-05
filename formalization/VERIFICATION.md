@@ -26,7 +26,7 @@ lake env lean -j2 -M6144 -DautoImplicit=false -DmaxHeartbeats=100000000 -DmaxRec
 
 Both commands returned exit code 0. The complete quantitative rectangle assembly has 1,068 rectangles with 64 numeric nodes per rectangle. The final mathematical acceptance record is dated November 2, 2026 and identifies the original `13 / 10^10` theorem.
 
-The [ordinary-build record extract](evidence/ordinary-build-records.json) retains the exact recorded command arrays, exits, log hashes, source hashes, and dependency bindings. It is explicitly a derived index. Unmodified full logs are provided in [`ordinary-kernel-check-evidence.zip`](https://github.com/zhangteng2000/Bloch-constant/releases/download/lean-formalization-2026-11-05/ordinary-kernel-check-evidence.zip); the complete raw history is in the six-part archive.
+The [ordinary-build record extract](evidence/ordinary-build-records.json) retains the exact recorded command arrays, exits, log hashes, source hashes, and dependency bindings. It is explicitly a derived index. Unmodified full logs are packaged in `ordinary-kernel-check-evidence.zip`; the complete raw history is in the six-part archive. These large attachments are prepared locally and await Release upload. The smaller linked logs and command-record extract are already committed.
 
 After extraction, the principal raw evidence is under:
 

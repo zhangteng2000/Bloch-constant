@@ -9,8 +9,10 @@ The pinned toolchain is `leanprover/lean4:v4.34.0-rc1`, Lean commit `3447a668783
 - [Download, verify, extract, and rebuild](REPRODUCTION.md)
 - [Dependency revisions](DEPENDENCIES.md)
 - [Windows preparation details](COMPATIBILITY.md)
-- [Complete release](https://github.com/zhangteng2000/Bloch-constant/releases/tag/lean-formalization-2026-11-05) and [asset SHA-256 checksums](SHA256SUMS.txt)
+- [Release destination](https://github.com/zhangteng2000/Bloch-constant/releases) and [prepared asset SHA-256 checksums](SHA256SUMS.txt)
 
-The complete archive contains 160,985 payload files, 50 support files, and four metadata members. Its six compressed parts total 6,341,244,083 bytes; extraction writes 43,158,256,451 bytes. Nine Git dependencies are locked to exact commits. MRMT and Schoenflies local sources, provenance, and licenses are included. Compiled caches and installed Windows toolchain binaries are obtained or built separately.
+**Distribution status:** the documentation, entry points, selected audit logs, and tools are committed. The large source archive and complete-log ZIP are prepared locally; their Release upload is not yet complete.
+
+The prepared complete archive contains 160,985 payload files, 50 support files, and four metadata members. Its six compressed parts total 6,341,244,083 bytes; extraction writes 43,158,256,451 bytes. Nine Git dependencies are locked to exact commits. MRMT and Schoenflies local sources, provenance, and licenses are included. Compiled caches and installed Windows toolchain binaries are obtained or built separately.
 
 The archive preserves the original evidence and its chronology. Current explanatory documents in this directory identify the ordinary kernel-checked mathematical results and the procedure for reproducing them. A checksum or extraction check verifies the delivered bytes; an independent Lean build checks the proofs in the recipient's environment.
