@@ -12,6 +12,6 @@ The three results have passed the recorded ordinary Lean kernel checks. Their au
 
 Start with the [formalization guide](formalization/README.md), [exact statement map](formalization/STATEMENTS.md), [recorded verification evidence](formalization/VERIFICATION.md), and [reproduction instructions](formalization/REPRODUCTION.md).
 
-The complete source and evidence package is prepared for upload to [GitHub Releases](https://github.com/zhangteng2000/Bloch-constant/releases). **The large archive attachments have not yet been uploaded.** The committed files provide the English documentation, byte-identical theorem entry points, selected audit logs, dependency locks, and reproduction tools. The full import closure and complete raw logs are packaged in the six archive parts described in the formalization guide.
+The **[complete source and evidence release](https://github.com/zhangteng2000/Bloch-constant/releases/tag/lean-formalization-2026-11-05)** contains the full proof project, local dependency sources and licenses, numerical resources, build logs, and integrity manifests. Download all six archive parts and the three accompanying manifests. The files under `formalization/entry/` are byte-identical entry points for browsing; the complete import closure is in the release.
 
 The original [README.txt](README.txt) describes the numerical-certificate distribution predating this Lean addition. Its original files and checksums are retained.
