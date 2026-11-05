@@ -1,0 +1,309 @@
+{
+  "schema": "ordinary-lean-build-evidence-extract-v1",
+  "scope": "Recorded ordinary Lean compilation, statement checking, and axiom audits for Theorem 1.1, Corollary 1.2, and Theorem 1.3.",
+  "derived_from": {
+    "archive_path": "AGStrip/logs/quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume/status.json",
+    "sha256": "9bf56345bd26761339f20929b5740f384dc085bc4654877b30b181ccc9a0767a"
+  },
+  "unique_module_results": 79902,
+  "failed_module_results": 0,
+  "module_records": [
+    {
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+AGStrip.SurfaceAGRadiusDescent:olean"
+      ],
+      "exit_code": 0,
+      "seconds": 19.25,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261022-020845\\AGStrip.SurfaceAGRadiusDescent.log",
+      "log_sha256": "151393005cbfce8d7a302f4ab0774e342de5c45455ec3831466b59865f9b3d15",
+      "module": "AGStrip.SurfaceAGRadiusDescent",
+      "resource": {
+        "library": "AGStrip",
+        "numeric": false,
+        "memory_mib": 6144,
+        "threads": 2,
+        "weight": 12
+      },
+      "artifacts": {
+        "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\.lake\\build-quantitative-20261021-2214-recovery3\\lib\\lean\\AGStrip\\SurfaceAGRadiusDescent.olean": "c30ae8c0f791d0ed5d7acb59a06d7a5f4a12424849b11d34738a21e818b82eb3"
+      }
+    },
+    {
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+AGStrip.Main:olean"
+      ],
+      "exit_code": 0,
+      "seconds": 20.64100000000326,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261022-020845\\AGStrip.Main.log",
+      "log_sha256": "530a2eb28fc847a4427b9e5245cfba0f3cae2db4b0c613a9dc7f16f480e0c245",
+      "module": "AGStrip.Main",
+      "resource": {
+        "library": "AGStrip",
+        "numeric": false,
+        "memory_mib": 6144,
+        "threads": 2,
+        "weight": 12
+      },
+      "artifacts": {
+        "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\.lake\\build-quantitative-20261021-2214-recovery3\\lib\\lean\\AGStrip\\Main.olean": "c008e80b028b5c41330be4a2ff7b64fbc711771e63f32f80c951f9be8b27b90a"
+      }
+    },
+    {
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+AGStrip:olean"
+      ],
+      "exit_code": 0,
+      "seconds": 28.125,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261022-020845\\AGStrip.log",
+      "log_sha256": "dff77790490b9eff621bdb816dea8b2696caa2d771387ada5705aee269d2af8c",
+      "module": "AGStrip",
+      "resource": {
+        "library": "AGStrip",
+        "numeric": false,
+        "memory_mib": 6144,
+        "threads": 2,
+        "weight": 12
+      },
+      "artifacts": {
+        "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\.lake\\build-quantitative-20261021-2214-recovery3\\lib\\lean\\AGStrip.olean": "af3dcd85a85bade13072f431607e911d3482aa089379b6cc84c3db49921ac8a9"
+      }
+    },
+    {
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+AGStripQuantitative:olean"
+      ],
+      "exit_code": 0,
+      "seconds": 1169.4690000000119,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\AGStripQuantitative.log",
+      "log_sha256": "b5ad56222da455af3372c21a1c33d972efdfb9be47d2232db7ec7fff78aedaf6",
+      "module": "AGStripQuantitative",
+      "resource": {
+        "library": "AGStripQuantitative",
+        "numeric": false,
+        "memory_mib": 6144,
+        "threads": 2,
+        "weight": 12
+      },
+      "artifacts": {
+        "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\.lake\\build-quantitative-20261021-2214-recovery3\\lib\\lean\\AGStripQuantitative.olean": "da5bf6f14c0b55dbe4562aee34d17b7f9bb652fae7eac69ab65cbcbe143e9c86",
+        "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\.lake\\build-quantitative-20261021-2214-recovery3\\lib\\lean\\AGStripQuantitative.olean.private": "010df40c270ead148f8a116c95d26a16805aaf761fc9ae790aa414e1e83a746a",
+        "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\.lake\\build-quantitative-20261021-2214-recovery3\\lib\\lean\\AGStripQuantitative.olean.server": "2373364a94b8ac54afe949bda16825f5ab4d7262d75c8e078d41c132b0ebff6e"
+      }
+    }
+  ],
+  "command_records": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 54.23399999999674,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261022-020845\\lean-version.log",
+      "log_sha256": "8f3d88dc7f1ad7918c53977a1d5a50430701d9309c2a25a9e19fa8273516cbaa"
+    },
+    {
+      "command": [
+        "lake",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 0.14100000000325963,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261022-020845\\lake-version.log",
+      "log_sha256": "1e8a80622c2e09e163da92a580335ab0463208aeeb16d91c9b840b62d2208f33"
+    },
+    {
+      "command": [
+        "lake",
+        "--no-cache",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 1017.4059999999881,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\default-lake-build.log",
+      "log_sha256": "2085c49aaab8afe1e89a49574079e893d880b9701d5b46ffd9139c8a7633bf9e"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j2",
+        "-M6144",
+        "-DautoImplicit=false",
+        "-DmaxHeartbeats=100000000",
+        "-DmaxRecDepth=1000000",
+        "AGStrip/AxiomAudit.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 291.5149999999994,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\original-axiom-audit.log",
+      "log_sha256": "3326e1095ac2e9950b2a82034a9af3f9d9ec26445f23f7cf6cf0fef5a63874a1"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j2",
+        "-M6144",
+        "-DautoImplicit=false",
+        "-DmaxHeartbeats=100000000",
+        "-DmaxRecDepth=1000000",
+        "AGStripQuantitative.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 67.26600000000326,
+      "log": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\quantitative-axiom-and-type-audit.log",
+      "log_sha256": "85b0ed0e14b51c07409f972a33edb1ecba2144098f18d8de62c9c6fdad548b42"
+    }
+  ],
+  "source_bindings": [
+    {
+      "repository_path": "formalization/entry/AGStrip/Main.lean",
+      "archive_path": "AGStrip/AGStrip/Main.lean",
+      "bytes": 513,
+      "sha256": "9591c24f1e6411f7b55952615a28dba231a0a413480ba822a6da208d5e17a9f2"
+    },
+    {
+      "repository_path": "formalization/entry/AGStrip/MainStatement.lean",
+      "archive_path": "AGStrip/AGStrip/MainStatement.lean",
+      "bytes": 3633,
+      "sha256": "df1d5cd0d5aaacb672405e334892400f4598d2f4560f4c2633f437a9a487c94f"
+    },
+    {
+      "repository_path": "formalization/entry/AGStrip/Definitions.lean",
+      "archive_path": "AGStrip/AGStrip/Definitions.lean",
+      "bytes": 3349,
+      "sha256": "a2ca2beb0c7ed55a88fee0b7db83194c325500bb68611cbaa329105dddbeed3a"
+    },
+    {
+      "repository_path": "formalization/entry/AGStrip/SurfaceAGRadiusDescent.lean",
+      "archive_path": "AGStrip/AGStrip/SurfaceAGRadiusDescent.lean",
+      "bytes": 1525,
+      "sha256": "beb33b607561a938f837423e04c75ca8ea25c5ea80d207cd013c79139d0bc480"
+    },
+    {
+      "repository_path": "formalization/entry/AGStripQuantitative.lean",
+      "archive_path": "AGStrip/AGStripQuantitative.lean",
+      "bytes": 696,
+      "sha256": "3c22ae281de5793001d07c2c84d60e6a333dd9fce641d0f0245a09bff44473eb"
+    },
+    {
+      "repository_path": "formalization/entry/lean-toolchain",
+      "archive_path": "AGStrip/lean-toolchain",
+      "bytes": 30,
+      "sha256": "a3997b5ad01979b25dae3b76f397dcb7c2392c3c838eb4bca83d4456a89b38aa"
+    },
+    {
+      "repository_path": "formalization/entry/lakefile.toml",
+      "archive_path": "AGStrip/lakefile.toml",
+      "bytes": 19770,
+      "sha256": "1e53e3414bd682a8ecdc7a15ecd666985aa31e47a882f3ef1eeb7ca851b4ce29"
+    },
+    {
+      "repository_path": "formalization/entry/lake-manifest.json",
+      "archive_path": "AGStrip/lake-manifest.json",
+      "bytes": 4439,
+      "sha256": "d347b39b5d3e777a517f8cc875fe9f0f442cf1d5968373532a0922b27b2c9998"
+    }
+  ],
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc1",
+  "git_dependencies": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "rev": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "rev": "38e9c3ce15cbb63c92e90bb9a92e4eb82131f669"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "rev": "2bc7cf064315b26bc38dac2e9612fb581be9b75f"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "rev": "978b7ec9fbbf9a535114f1de8fe5b3778b358870"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "rev": "99e8adeea3c3cd86b6b79ba01a1383bf2d31d055"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "rev": "c1c4362a130f12e632d252180a6c2a31d8fd4726"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "rev": "3b55e9d00c6b0018e5d984eb011b6f93c09bd163"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "rev": "01bc479e7432594821ba3fb0ca465211941de86d"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "rev": "af8bc067a4cc6c6df472a68909a3f40b1c76c43e"
+    }
+  ],
+  "local_dependencies": {
+    "dependencies": [
+      {
+        "dependency": "MRMT",
+        "provenance_modules": 214,
+        "total_local_modules": 216,
+        "local_import_closure_checked": true,
+        "supplemental_sources": [
+          {
+            "module": "MRMTFoundation.AuditSupport",
+            "archive_path": "AGStrip/dependencies/MRMT/MRMTFoundation/AuditSupport.lean",
+            "sha256": "55816796d74460d302c964ed56693a212dc51059b39d747ddb90af84eed17e04",
+            "integrity_basis": "publication_capture",
+            "justification": "Required by both MRMTFoundation.lean and the delivered dependency build script; local audit support, not an upstream ported proof."
+          }
+        ]
+      },
+      {
+        "dependency": "Schoenflies",
+        "provenance_modules": 128,
+        "total_local_modules": 129,
+        "local_import_closure_checked": true,
+        "supplemental_sources": []
+      }
+    ],
+    "vendor_license_included": true,
+    "vendor_provenance_included": true,
+    "vendor_ported_sources_match_accepted_inputs": true,
+    "upstream_source_fetch_performed": false,
+    "provenance_limit": "Upstream origin is preserved as recorded provenance; original upstream bytes are not refetched by this inventory tool."
+  }
+}

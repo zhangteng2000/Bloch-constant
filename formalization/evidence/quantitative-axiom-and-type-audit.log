@@ -1,0 +1,16 @@
+AGStrip.original_quantitative_bloch_bound : AGStrip.blochConstant < ENNReal.ofReal (AGStrip.AG - 13 / 10 ^ 10)
+'AGStrip.original_quantitative_bloch_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+@[expose] def AGStrip.Normalized : (ℂ → ℂ) → Prop :=
+fun f => AGStrip.HolomorphicOnDisk f ∧ f 0 = 0 ∧ deriv f 0 = 1
+@[expose] def AGStrip.IsInverseBranch : (ℂ → ℂ) → (ℂ → ℂ) → ℂ → ℝ → Prop :=
+fun f ψ w r =>
+  DifferentiableOn ℂ ψ (Metric.ball w r) ∧
+    Set.MapsTo ψ (Metric.ball w r) AGStrip.unitDisk ∧ ∀ ξ ∈ Metric.ball w r, f (ψ ξ) = ξ
+@[expose] def AGStrip.blochRadius : (ℂ → ℂ) → ENNReal :=
+fun f => sSup (AGStrip.admissibleRadii f)
+@[expose] def AGStrip.blochConstant : ENNReal :=
+sInf {ρ | ∃ f, AGStrip.Normalized f ∧ ρ = AGStrip.blochRadius f}
+@[expose] def AGStrip.AG : ℝ :=
+Real.Gamma (1 / 3) * Real.Gamma (11 / 12) / (√(1 + √3) * Real.Gamma (1 / 4))
+CURRENT_MODULE_AXIOM_AUDIT_OK: 1 declarations; allowed = [propext, Classical.choice, Quot.sound]
+MODULE_CLOSURE_AXIOM_AUDIT_OK: 82259 declarations; allowed = [propext, Classical.choice, Quot.sound]

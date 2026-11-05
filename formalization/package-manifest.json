@@ -1,0 +1,504 @@
+{
+  "status": "STREAMING_PACKAGE_READBACK_VERIFIED_NOT_NEW_MATHEMATICAL_ACCEPTANCE",
+  "candidate_tool": true,
+  "upload_performed": false,
+  "real_acceptance_claim_created": false,
+  "manifest_sha256": "2c58f195e352bed324f67304a9211fce2160dfb3b7fe4638fed4ebd5af4bc82f",
+  "part_limit_bytes": 1073741824,
+  "parts": [
+    {
+      "index": 1,
+      "name": "source-evidence.tar.gz.part00001",
+      "size_bytes": 1073741824,
+      "sha256": "778038c53a90791e0fd8a8443af396e791ced6cd25c6a9a6dd2dfafdb34317f9"
+    },
+    {
+      "index": 2,
+      "name": "source-evidence.tar.gz.part00002",
+      "size_bytes": 1073741824,
+      "sha256": "f75c7bd7505c11ddb78fa53e5f11e2487d94f8fc46f996239e3c1dacfcfd3783"
+    },
+    {
+      "index": 3,
+      "name": "source-evidence.tar.gz.part00003",
+      "size_bytes": 1073741824,
+      "sha256": "0eea31e67fb894d93f01cdfa098e78543e08b4e1587e857b6f95b91b662ea297"
+    },
+    {
+      "index": 4,
+      "name": "source-evidence.tar.gz.part00004",
+      "size_bytes": 1073741824,
+      "sha256": "1673ef9ee23aadf3b223816cc40273ebf0d94d2d01ee9adbd056c5b93aeb04b0"
+    },
+    {
+      "index": 5,
+      "name": "source-evidence.tar.gz.part00005",
+      "size_bytes": 1073741824,
+      "sha256": "e3cebedbf6791e276f286756655591c01e835cbd320778d3a6cb669f28acf0c3"
+    },
+    {
+      "index": 6,
+      "name": "source-evidence.tar.gz.part00006",
+      "size_bytes": 972534963,
+      "sha256": "8110c13a384681e45b715740dafdd9bdf5f380f213e5ff530cc30d84b07aa5a4"
+    }
+  ],
+  "whole_stream_sha256": "cbd5d7c215edb93f22f5f5bb55cb76f85f2b4037706ebc40aeda89a1535b9c14",
+  "total_compressed_bytes": 6341244083,
+  "payload_files": 160985,
+  "archived_files": 161039,
+  "total_payload_bytes": 42979376714,
+  "additional_publication_metadata": [
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\accepted-manifest-20261102-0515\\ACCEPTANCE-SUMMARY-ENGLISH.txt",
+      "archive_path": "publication/ACCEPTANCE-SUMMARY-ENGLISH.txt",
+      "sha256": "1503d7ba66228b6413d7b0daaa590bf0ba921d3797d0be636004204d78f246b3",
+      "size_bytes": 3155,
+      "role": "publication_explanatory_metadata_not_acceptance_inputs"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\accepted-manifest-20261102-0515\\REPRODUCTION-NOTES-ENGLISH.txt",
+      "archive_path": "publication/REPRODUCTION-NOTES-ENGLISH.txt",
+      "sha256": "f2be149c4d6c297b534a5b4467c2e41a15be49c24b75b925e6e07c7a5050fb17",
+      "size_bytes": 1385,
+      "role": "publication_explanatory_metadata_not_acceptance_inputs"
+    }
+  ],
+  "additional_publication_metadata_bytes": 4540,
+  "packager_candidate_version": 4,
+  "publication_preparation_version": 5,
+  "recovery_inventory_binding": {
+    "status": "V5_RECOVERY_RAW_CHAIN_AND_INTERRUPTED_BUILD_LINEAGE_VERIFIED_NOT_MATHEMATICAL_ACCEPTANCE",
+    "generation_count": 3,
+    "historical_reference_count": 5150,
+    "publication_preparation_version": 5,
+    "interrupted_build_lineage_verified": true,
+    "interrupted_build_provenance_sha256": "811828f651c3ae0a9ee029503ad2023054201903e3f1cf26f634195b14baeffa",
+    "recovery_provenance_sha256": "bb155aa03a1160869cc245bb79d5eca4fc34e120e4e70f5de04681f456a56418",
+    "lineage_resume_links": 8,
+    "lineage_required_evidence_count": 36,
+    "resumed_controller_records": 6,
+    "metadata_members_checked": 67,
+    "original_paths_opened": false,
+    "mathematical_acceptance_rechecked": false
+  },
+  "metadata_storage": {
+    "policy": "VERIFIED_MEMBER_CONTENT_SHARING_V1",
+    "members": 93,
+    "logical_bytes": 2709112849,
+    "distinct_contents": 72,
+    "distinct_bytes": 1571856049,
+    "max_member_bytes": 536870912,
+    "max_distinct_content_bytes": 2147483648
+  },
+  "publication_support_inventory": {
+    "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\support-selection-20261102-0625\\support-inventory-complete.json",
+    "archive_path": "publication/support/support-inventory.json",
+    "sha256": "279e5aa84b892630772422005b0951e5464586a7e32d4b70c32a59b76bf66d79",
+    "size_bytes": 19877,
+    "role": "publication_support_selection_not_acceptance_inputs"
+  },
+  "publication_support_files": [
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\support-selection-20261102-0550\\AUTHOR-HOST-SOURCE-MAPPING.json",
+      "archive_path": "publication/support/AUTHOR-HOST-SOURCE-MAPPING.json",
+      "sha256": "6d4aeb961f80b1f35ea3e30a19e53df8cb746c9b094ad9ab9ff05f6be2e55880",
+      "size_bytes": 12119,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\support-selection-20261102-0625\\README-ENGLISH.txt",
+      "archive_path": "publication/support/README-ENGLISH.txt",
+      "sha256": "c3fb3b7e4760b121d8e1cfe3097c4b2652ad7c70b17495363efed1eda75cf4b0",
+      "size_bytes": 5290,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\accept_outer_standard_delivery.py",
+      "archive_path": "publication/support/author-host/accept_outer_standard_delivery.py",
+      "sha256": "14a42e7eefb9b02f525af06b06b62ad23e80807a7bf1b45f869c8975c8bc142d",
+      "size_bytes": 6990,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\check_outer_final_fresh.py",
+      "archive_path": "publication/support/author-host/check_outer_final_fresh.py",
+      "sha256": "d34de77187fcd984d5482b725d8fbe013216bc2ee9ae10c07dea767422ebf4e7",
+      "size_bytes": 6512,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\continue_outer_final_acceptance.py",
+      "archive_path": "publication/support/author-host/continue_outer_final_acceptance.py",
+      "sha256": "d9639e6e9a84c819fc04c6a51d9f38526780184e8047f91e0bc84fecbcc1c9cf",
+      "size_bytes": 11843,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\install_outer_standard_delivery.py",
+      "archive_path": "publication/support/author-host/install_outer_standard_delivery.py",
+      "sha256": "28cfc67ac8f908a68794ec149091cf466a56ef16ebc173340901a02ea4dff05f",
+      "size_bytes": 12034,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer_actual_rectangle_structure.py",
+      "archive_path": "publication/support/author-host/outer_actual_rectangle_structure.py",
+      "sha256": "1c408e59110bf9ec8d9dd817629c3307d5af258ce9b0b0dd293ac3ffdf35eeb2",
+      "size_bytes": 838,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer_checked_module_evidence.py",
+      "archive_path": "publication/support/author-host/outer_checked_module_evidence.py",
+      "sha256": "7c7351bac5aa2db21ab8d4fee7c41ed2ec217595058d78eea3ff5412433e0d21",
+      "size_bytes": 9416,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer_final_recovery.py",
+      "archive_path": "publication/support/author-host/outer_final_recovery.py",
+      "sha256": "ef16040237a3fcb0445873d9b46c4b4c46933578c4e934defb686a03dd6f45c5",
+      "size_bytes": 8504,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer_fresh_build_recovery.py",
+      "archive_path": "publication/support/author-host/outer_fresh_build_recovery.py",
+      "sha256": "43b93e6ca5d648084fc347bbf29407436d97b596dd262fd472765c2258bd481a",
+      "size_bytes": 26831,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer_standard_artifact_dependencies.py",
+      "archive_path": "publication/support/author-host/outer_standard_artifact_dependencies.py",
+      "sha256": "c4ac03849ebd79901302ed499d6f9dd8e81b16897a93b0d2168a59ef990a5aa9",
+      "size_bytes": 3649,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer_standard_storage.py",
+      "archive_path": "publication/support/author-host/outer_standard_storage.py",
+      "sha256": "ea374fdeb7497f38e5291c5fef3c1136d06d878bb7bd0b37844707cddd7bdd1e",
+      "size_bytes": 4230,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-10\\lean-4\\work\\review_outer_final_statement.py",
+      "archive_path": "publication/support/author-host/review_outer_final_statement.py",
+      "sha256": "949fcb9005e89f54a1d3e5270b6d0b8ab10637d6f6c7e0ac1ad9aff39997cdb1",
+      "size_bytes": 3822,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\verify-ahlfors-final-evidence-readonly.py",
+      "archive_path": "publication/support/author-host/verify-ahlfors-final-evidence-readonly.py",
+      "sha256": "79fa1a24a4199a8a586e70b6e9fc5cd654f15fc33e4a2a4a833bd4defa12d86c",
+      "size_bytes": 5525,
+      "kind": "independent_evidence_verifier"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\tests-20261102-062045-610636\\BYTE-READBACK-CORRECTION.json",
+      "archive_path": "publication/support/cache-review/BYTE-READBACK-CORRECTION.json",
+      "sha256": "792dc852769e710c6cd7e3e676c2e531742cca44155742002b4ee6200ce3e6e7",
+      "size_bytes": 2188,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\CANDIDATE-REVIEW.json",
+      "archive_path": "publication/support/cache-review/CANDIDATE-REVIEW.json",
+      "sha256": "dcad63b68364f2a850af3fceb03e43ce4b03b114403dfedf1bf0ed63ac22a768",
+      "size_bytes": 8526,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\tests-20261102-062045-610636\\REAL-INVENTORY-SELECTION.json",
+      "archive_path": "publication/support/cache-review/REAL-INVENTORY-SELECTION.json",
+      "sha256": "a3444ff0671f8d7dc946fcddcb9450e6164cc4b80f7875773a427f2e61d8a357",
+      "size_bytes": 413,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\tests-20261102-062045-610636\\RESULT.json",
+      "archive_path": "publication/support/cache-review/RESULT.json",
+      "sha256": "d3d43d97f06312f0b7b85e807fd51f983cd3b1a928870efcf6c0b4672517f2aa",
+      "size_bytes": 953,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\SOURCE-PINS.json",
+      "archive_path": "publication/support/cache-review/SOURCE-PINS.json",
+      "sha256": "b00e64844334c88ae862a55418876d96636ecef66bd68b2ec0561b3c01dba879",
+      "size_bytes": 5213,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\TEST-AND-REVIEW-TOOL-EVIDENCE.json",
+      "archive_path": "publication/support/cache-review/TEST-AND-REVIEW-TOOL-EVIDENCE.json",
+      "sha256": "955334a5af253be602f44a2b438062ccaabae3618cac40672585ab0239aa6dd6",
+      "size_bytes": 17464,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\dependency_bootstrap.py.diff",
+      "archive_path": "publication/support/cache-review/diffs/dependency_bootstrap.py.diff",
+      "sha256": "97d696b4697b3f404074e71268688eebda642556ae56c417044f0d64bf867583",
+      "size_bytes": 674,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\publication_recovery_inventory.py.diff",
+      "archive_path": "publication/support/cache-review/diffs/publication_recovery_inventory.py.diff",
+      "sha256": "8bbf4690d4a7adae52f7972dc942de81e512e3eb9238719232a630c579f662cb",
+      "size_bytes": 4442,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\safe_extract_package.py.diff",
+      "archive_path": "publication/support/cache-review/diffs/safe_extract_package.py.diff",
+      "sha256": "7e52c714f14747342f33116133a520d2fa3e4672911a637e4b21a7abbaf4363a",
+      "size_bytes": 772,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\stream_source_package.py.diff",
+      "archive_path": "publication/support/cache-review/diffs/stream_source_package.py.diff",
+      "sha256": "f56411a05b897a033cfef1ddd9eab5b036b3d50edbcc93e708a34f3ac2d91488",
+      "size_bytes": 2464,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\interruption-20261031-2148\\source-package-20261102-0600\\METADATA-BOUND-DIAGNOSIS.json",
+      "archive_path": "publication/support/cache-review/original-package-failure-diagnosis.json",
+      "sha256": "7f1fc666cf724c16e262ebed630404744de011000227a0ee016b4615e329f385",
+      "size_bytes": 75395,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\interruption-20261031-2148\\source-package-20261102-0600\\execution.json",
+      "archive_path": "publication/support/cache-review/original-package-failure-execution.json",
+      "sha256": "18b94e624d4d77ce97900b4a5a48b3caafd1de4edc81f23bf0322ba39e13c9ca",
+      "size_bytes": 2700,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\interruption-20261031-2148\\source-package-20261102-0600\\stderr.log",
+      "archive_path": "publication/support/cache-review/original-package-failure-stderr.log",
+      "sha256": "d17bbea04ad3543f67fac7b6b4f0ba34019c91f0c85a3d3a34fb0f7c3ddcb123",
+      "size_bytes": 2500,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\test_metadata_cache_candidate.py",
+      "archive_path": "publication/support/cache-review/test_metadata_cache_candidate.py",
+      "sha256": "98c873d6258d1e454ac28b942e89932707826e32adbba07c34d499b8e307b9d9",
+      "size_bytes": 16317,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\tests-20261102-062045-610636\\tests.log",
+      "archive_path": "publication/support/cache-review/tests.log",
+      "sha256": "4a0103b6d4402c53ef31ad3232a18f35efd103cfc40eb7ec1eb3500efaf07116",
+      "size_bytes": 2280,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\CACHE-COMPATIBILITY-ENGLISH.txt",
+      "archive_path": "publication/support/docs/CACHE-COMPATIBILITY-ENGLISH.txt",
+      "sha256": "c7263bf537084517e071366b52f804f835ad4e20df301d0f2bc98c2e1e3b3f09",
+      "size_bytes": 3102,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-portable-reproduction-candidate-v3-20261023\\USAGE-ENGLISH.txt",
+      "archive_path": "publication/support/docs/bootstrap-USAGE-ENGLISH.txt",
+      "sha256": "f56346f3e9faaf6a9aeeafe17ddd5aa6fd485618c32df6d40b0ee3aad7da3302",
+      "size_bytes": 5248,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-safe-extraction-candidate-v3-20261023\\USAGE-ENGLISH.txt",
+      "archive_path": "publication/support/docs/extraction-USAGE-ENGLISH.txt",
+      "sha256": "c5c751c7b434907f889585026067d9a19d215ac2d4a684858c81d57188841310",
+      "size_bytes": 4854,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-source-packager-candidate-v4-20261023\\USAGE-ENGLISH.txt",
+      "archive_path": "publication/support/docs/packager-USAGE-ENGLISH.txt",
+      "sha256": "ecb672f17c18027ad3cd817b56c70e626b364ce6df5ba70ec402c5a39ab2427a",
+      "size_bytes": 4782,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-publication-preparation-v5-20261023\\USAGE-ENGLISH.txt",
+      "archive_path": "publication/support/docs/producer-USAGE-ENGLISH.txt",
+      "sha256": "f2b4921e789dba9145f53c6842dd28525925c56f644cc4502e6339e6cf7981f8",
+      "size_bytes": 16723,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-source-packager-candidate-v4-20261023\\SUPPORT-FILES-DRAFT-ENGLISH.txt",
+      "archive_path": "publication/support/docs/support-schema-ENGLISH.txt",
+      "sha256": "6e0c192df3853e1da4a9322e930fce1c8724fef25da23e0fe117f9ab09615764",
+      "size_bytes": 2202,
+      "kind": "instructions"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\final-acceptance-support-import-review-20261101-2202.json",
+      "archive_path": "publication/support/review/author-host-static-import-review.json",
+      "sha256": "54a382788e51e5182db2143bd5db69e3ff7267b4aec2e88a0d9d4dadb5d68000",
+      "size_bytes": 7432,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\interruption-20261031-2148\\final-acceptance-20261101-2241\\execution.json",
+      "archive_path": "publication/support/review/final-acceptance-execution.json",
+      "sha256": "a3f399cf35308f5775637dac24641e9c61dea3af573dbe04f68eaa1e20eedea3",
+      "size_bytes": 714,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\interruption-20261031-2148\\independent-final-verification-20261102-0344\\execution.json",
+      "archive_path": "publication/support/review/independent-verification-execution.json",
+      "sha256": "8ae79af1c05fde99a5f901f69aeba0031d0c7fcb7aa8110b1916d8252c8b3202",
+      "size_bytes": 646,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\interruption-20261031-2148\\publication-preparation-20261102-0515\\execution.json",
+      "archive_path": "publication/support/review/publication-inventory-execution.json",
+      "sha256": "860e24a8443b52d7a3f41ca15ea60fe222741a86cd8cf2bed8fb64c22f6fc885",
+      "size_bytes": 1580,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-resumption-20261023-124733\\publication-toolchain-root-review.json",
+      "archive_path": "publication/support/review/publication-toolchain-root-review.json",
+      "sha256": "427cac7d230b237a331d648684d7c651cbc27bc34b2166dd79a7b6372e17cb3b",
+      "size_bytes": 8494,
+      "kind": "review_record"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\dependency_bootstrap.py",
+      "archive_path": "publication/support/runtime/dependency_bootstrap.py",
+      "sha256": "3d3110f7b4a042ed67e22976d688c5c6081150604c5976d7af6d4d28f4a6b563",
+      "size_bytes": 29791,
+      "kind": "dependency_bootstrap"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\interrupted_build_lineage.py",
+      "archive_path": "publication/support/runtime/interrupted_build_lineage.py",
+      "sha256": "1603a4784aed7c373f748bfe6517a1e602b7325b06607e49ac9dfc0619299af1",
+      "size_bytes": 19658,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\prepare_publication_manifest.py",
+      "archive_path": "publication/support/runtime/prepare_publication_manifest.py",
+      "sha256": "1f07b98089604d5599e3d57dae95cf995dd603462a323b953b4d57b7f11c0f64",
+      "size_bytes": 33533,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\publication_dependency_closure.py",
+      "archive_path": "publication/support/runtime/publication_dependency_closure.py",
+      "sha256": "fee106fb2be16151e1940fa355eb322fd8134f886db18930eb9dffb78fe8e6b0",
+      "size_bytes": 8683,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\publication_interrupted_build_evidence.py",
+      "archive_path": "publication/support/runtime/publication_interrupted_build_evidence.py",
+      "sha256": "8cdd4de1117f20a22364f00896a0d5d671c309711eb9eaaae7977fea1df1b886",
+      "size_bytes": 4654,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\publication_recovery_inventory.py",
+      "archive_path": "publication/support/runtime/publication_recovery_inventory.py",
+      "sha256": "f12f823a5e5827556b83b4ac035cab81084132a3f69d20f740f3da199accfbd7",
+      "size_bytes": 36745,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\recovery_publication_evidence.py",
+      "archive_path": "publication/support/runtime/recovery_publication_evidence.py",
+      "sha256": "5696102f89d230d7662727e887afbddf7fd5bcd867e0ba76b242a9e5866dae35",
+      "size_bytes": 29268,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\safe_extract_package.py",
+      "archive_path": "publication/support/runtime/safe_extract_package.py",
+      "sha256": "1810b17715721d5374a413dea983d738b8e964e061e3d4a762d7e9ddc12461ab",
+      "size_bytes": 14707,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\stream_source_package.py",
+      "archive_path": "publication/support/runtime/stream_source_package.py",
+      "sha256": "2e350874c5c7b80b9306e644f11f5e7697938c1c952074035b8933bebceb0d6d",
+      "size_bytes": 40707,
+      "kind": "python_module"
+    },
+    {
+      "source_path": "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-metadata-cache-candidate-20261102-0610\\verify_source_package.py",
+      "archive_path": "publication/support/runtime/verify_source_package.py",
+      "sha256": "815980deb848eecb2cad03daf73dc5fff426233e81321fbc990654f5cddfeda5",
+      "size_bytes": 6105,
+      "kind": "offline_package_verifier"
+    }
+  ],
+  "publication_support_bytes": 539532,
+  "deterministic_format": "PAX tar (uid/gid/mtime=0, mode=0644), gzip mtime=0, level=6",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "zlib_build": "1.3.2",
+    "zlib_runtime": "1.3.2"
+  },
+  "current_acceptance_binding": {
+    "recovery_inventory_binding": {
+      "status": "V5_RECOVERY_RAW_CHAIN_AND_INTERRUPTED_BUILD_LINEAGE_VERIFIED_NOT_MATHEMATICAL_ACCEPTANCE",
+      "generation_count": 3,
+      "historical_reference_count": 5150,
+      "publication_preparation_version": 5,
+      "interrupted_build_lineage_verified": true,
+      "interrupted_build_provenance_sha256": "811828f651c3ae0a9ee029503ad2023054201903e3f1cf26f634195b14baeffa",
+      "recovery_provenance_sha256": "bb155aa03a1160869cc245bb79d5eca4fc34e120e4e70f5de04681f456a56418",
+      "lineage_resume_links": 8,
+      "lineage_required_evidence_count": 36,
+      "resumed_controller_records": 6,
+      "metadata_members_checked": 67,
+      "original_paths_opened": false,
+      "mathematical_acceptance_rechecked": false
+    },
+    "record_hashes": {
+      "D:\\codex_data\\2026-10-10\\lean-4\\work\\outer-final-acceptance-continuation-20261101-224402-587612\\status.json": "33c6daa582c10b85724c496c8fa260a8c9ef83b5cc62a54c8e85d52569bd0684",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\DELIVERY-MANIFEST.json": "eed417dd75edae1a6296eeecb232e5399ae06357f81eb54c13f1be9154cba0d0",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\final-acceptance.json": "2974a2e60c3345c5edbaff82d50fa717171a713317dda2245cfe4b4dcb56bf5c",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-standard-integration-20261021-2214-recovery3\\integration.json": "d641789c49fca31164271f550c6024008bdf8a3132b84a836603e6ddf171c771",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\status.json": "9bf56345bd26761339f20929b5740f384dc085bc4654877b30b181ccc9a0767a",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\final-statement-review.json": "dac198a92c075fbdd25375fc647a9198e7e59e2bc964ac287eecd1d818d29f7e",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\extra-checker-20261102-020601\\extra-checker.json": "5746aff08a1f539337d68423d963e4256fe44069aa71cc4aeea1b95deffc4efa",
+      "D:\\codex_data\\2026-10-19\\12-3\\outputs\\ahlfors-recovery-20261026-j1\\publication-runtime-20261101-205834\\independent-final-evidence-PASS-20261102-050044.json": "36b0797f9390be4ece179409a6960e1d1a9237c6b777bdb85d115b6cb985a476",
+      "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip\\logs\\quantitative-lake-reproduction-20261101-001326-290592-recovery3-resume\\inputs.json": "56a4614fea83171bce466ecf758091ba05c1eafe72b46aa765358c9e08552b67"
+    },
+    "verification_script_sha256": "79fa1a24a4199a8a586e70b6e9fc5cd654f15fc33e4a2a4a833bd4defa12d86c",
+    "producer_hashes": {
+      "prepare_publication_manifest.py": "1f07b98089604d5599e3d57dae95cf995dd603462a323b953b4d57b7f11c0f64",
+      "recovery_publication_evidence.py": "5696102f89d230d7662727e887afbddf7fd5bcd867e0ba76b242a9e5866dae35",
+      "publication_dependency_closure.py": "fee106fb2be16151e1940fa355eb322fd8134f886db18930eb9dffb78fe8e6b0",
+      "publication_interrupted_build_evidence.py": "8cdd4de1117f20a22364f00896a0d5d671c309711eb9eaaae7977fea1df1b886",
+      "interrupted_build_lineage.py": "1603a4784aed7c373f748bfe6517a1e602b7325b06607e49ac9dfc0619299af1"
+    },
+    "project": "D:\\codex_data\\2026-10-10\\lean-4\\outputs\\AGStrip",
+    "work": "D:\\codex_data\\2026-10-10\\lean-4\\work",
+    "extra_checker_actual_status": "NOT_COMPLETED_RESOURCE_LIMIT"
+  },
+  "readback": {
+    "status": "ALL_ARCHIVED_FILES_STREAM_READBACK_VERIFIED",
+    "files_verified": 161039,
+    "total_compressed_bytes": 6341244083
+  }
+}
